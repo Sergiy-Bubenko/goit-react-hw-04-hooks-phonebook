@@ -1,8 +1,12 @@
 .ContactList {
-  display: block;
+  display: flex;
+  flex-direction: column;
+}
+.ContactList li {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-
 .ContactListBtn {
   margin: 6px;
   margin-left: 15px;
@@ -19,3 +23,7 @@
 .ContactListBtn:hover {
   background: #1253d4;
 }
+
+/* .ContactList button {
+  margin-left: 100%;
+} */
